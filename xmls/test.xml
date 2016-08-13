@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="tests">
+  <test name="Getting message">
+    <classes>
+      <class name="messages.GetMessFromOtherUser"/>
+    </classes>
+  </test>
+  <test name="Sending message" >
+    <classes>
+      <class name="messages.SendMessToOtherUser"/>
+    </classes>
+  </test>
+</suite>
